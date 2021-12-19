@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1044</width>
+    <height>659</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>56</y>
+      <width>1022</width>
+      <height>541</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="sw_MAIN">
+     <widget class="GraphicsLayoutWidget" name="graphWidget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>30</y>
+        <width>621</width>
+        <height>471</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_record">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>20</y>
+        <width>341</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>녹 음</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>image/main_off.png</normaloff>
+        <selectedoff>image/main_off.png</selectedoff>
+        <selectedon>image/main_on.png</selectedon>image/main_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>45</width>
+        <height>45</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QTextEdit" name="textEdit">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>100</y>
+        <width>341</width>
+        <height>321</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_exit1">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>440</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>종 료</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>image/main_off.png</normaloff>
+        <selectedoff>image/main_off.png</selectedoff>
+        <selectedon>image/main_on.png</selectedon>image/main_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>45</width>
+        <height>45</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="sw_PARAMETER">
+     <widget class="QTextEdit" name="textEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>100</y>
+        <width>341</width>
+        <height>321</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_capture">
+      <property name="geometry">
+       <rect>
+        <x>680</x>
+        <y>20</y>
+        <width>341</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Capture</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>image/main_off.png</normaloff>
+        <selectedoff>image/main_off.png</selectedoff>
+        <selectedon>image/main_on.png</selectedon>image/main_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>45</width>
+        <height>45</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>640</width>
+        <height>480</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="btn_exit2">
+      <property name="geometry">
+       <rect>
+        <x>840</x>
+        <y>440</y>
+        <width>181</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>14</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>종 료</string>
+      </property>
+      <property name="icon">
+       <iconset>
+        <normaloff>image/main_off.png</normaloff>
+        <selectedoff>image/main_off.png</selectedoff>
+        <selectedon>image/main_on.png</selectedon>image/main_off.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>45</width>
+        <height>45</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="btn_main">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>청진기</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/main_off.png</normaloff>
+      <selectedoff>image/main_off.png</selectedoff>
+      <selectedon>image/main_on.png</selectedon>image/main_off.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_parameter">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>0</y>
+      <width>191</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>귀내시경</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>image/parameter_off.png</normaloff>image/parameter_off.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>45</width>
+      <height>45</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>GraphicsLayoutWidget</class>
+   <extends>QWidget</extends>
+   <header>pyqtgraph</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
